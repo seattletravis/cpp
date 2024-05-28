@@ -7,8 +7,7 @@ int main()
 
   std::cin >> favorite_number;
 
-  std::cout << "Your favorite Number is ";
+  std::cout << "Your favorite Number is..., I forgot!" << std::endl;
 
-  std::cout << 
   return 0;
 }
