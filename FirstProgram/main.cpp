@@ -1,10 +1,15 @@
 #include <iostream>
 
-int main() 
-{
+int main() {
   int favorite_number;
-  std::cout << "What is your favoritate Number? (Between 1 and 100) ";
+  std::cout << "What's your favorite number ";
   std::cin >> favorite_number;
-  std::cout << "Your favorite Number is..., I forgot!" << std::endl;
+  std::cout << "Amazing!! That's my favorite number too! ";
+  std::cout << "No really!!, ";
+  std::cout << favorite_number;
+  std::cout << ", is my favorite number!";
   return 0;
+
 }
+
+
