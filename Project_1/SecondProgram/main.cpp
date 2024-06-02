@@ -1,6 +1,9 @@
 #include <iostream>
 
 using namespace std;
+// using std::cin;
+// using std::cout;
+// using std::endl;
 
 int add_ints(int a, int b)
 {
@@ -9,9 +12,9 @@ int add_ints(int a, int b)
 
 int main()
 {
-  std::string favorite_color;
+  string favorite_color;
   cout << "What is your favorite color?";
-  std::cin >> favorite_color;
+  cin >> favorite_color;
   cout << "That's my favorite color too!!! " << endl;
   cout << "No really, ";
   cout << favorite_color;
