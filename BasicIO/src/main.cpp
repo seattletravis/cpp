@@ -23,7 +23,7 @@ int main()
 
 
 
-  // cout << "Enter a number: ";
+  // cout << "Enter a number!: ";
   // cin >> num1;
   // cout << "You entered: " << num1 << endl;
   
@@ -43,7 +43,7 @@ int main()
 
 
 
-  cout << "Enter a double: ";
+  cout << "Enter a double!: ";
   cin >> num3;
   cout << "You entered: " << num3;
 
