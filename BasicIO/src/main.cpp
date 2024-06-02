@@ -14,6 +14,7 @@ int main()
   cout << "Hello World" << endl;
   cout << "Hello" << " world!" << endl;
   cout << "Hello" << " world!\n";
+  cout << endl;
   cout << "Hello\nOut\nThere\n";
 
   return 0;
