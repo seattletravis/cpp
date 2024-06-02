@@ -1,12 +1,6 @@
 #include <iostream>
 
-// Thisis a comment
-
-/* This is 
-
-also a
-
-comment */
+// This is a comment
 
 int main()
 {
@@ -17,5 +11,6 @@ int main()
   std::cout << "No really ";
   std::cout << favorite_color;
   std::cout << ", is my favorite color!!!" << std::endl;
+
   return 0;
 }
