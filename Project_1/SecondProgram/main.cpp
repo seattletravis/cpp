@@ -1,7 +1,5 @@
 #include <iostream>
 
-// This is a comment
-
 int add_ints(int a, int b)
 {
   return a + b;
@@ -24,7 +22,6 @@ int main()
 
   std::cout << "Also a + b is equal to: ";
   std::cout << result;
-
 
   return 0;
 }
