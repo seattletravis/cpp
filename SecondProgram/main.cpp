@@ -1,6 +1,9 @@
 #include <iostream>
 
 // Thisis a comment
+
+/* This is also a
+comment */
 int main(){
   std::string favorite_color;
   std::cout << "What is your favorite color?";
