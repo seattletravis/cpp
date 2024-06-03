@@ -13,6 +13,11 @@ int main(){
   int countries_represented {65};
   cout << "There are: " << countries_represented << " countries represented" << endl;
 
+  long florida_population {20'610'000};
+  cout << "There are: " << florida_population << " people in Florida" << endl;
+
+  long long earth_population {7'600'000'000};
+  cout << "There are: " << earth_population << " people on planet earth!" << endl;
 
 
   return 0;
