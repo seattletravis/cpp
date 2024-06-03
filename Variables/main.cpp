@@ -19,8 +19,7 @@ int main(){
   cout << "Enter the length of the room: " << endl;
   cin >> length_room;
   area = get_area(length_room, width_room);
-  cout << "The area of the room is: " << area << " sq-ft!";
-
+  cout << "The area of the room is: " << area << " sq-ft!" << endl;
 
   return 0;
 }
