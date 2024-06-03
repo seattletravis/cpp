@@ -26,5 +26,16 @@ int main(){
   long long dist_to_centauri {9'461'000'000'000};
   cout << "Distance to Alpha Centauri: " << dist_to_centauri << " KM!" << endl;
 
+
+  /**********************
+  * Floating point types
+  *********************/
+
+  float car_payment {401.23};
+  cout << "Car Payment: $" << car_payment << endl;
+
+  
+
+
   return 0;
 }
