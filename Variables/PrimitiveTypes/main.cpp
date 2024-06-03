@@ -53,6 +53,17 @@ int main(){
     cout << "false" << endl;
   }
 
+  /**********************
+  * Overflow example
+  *********************/
+
+  short value1 {2000};
+  short value2 {30000};
+  short product {value1 * value2};
+
+  cout << "The product of " << value1 << " & " << value2 << " is " << product << endl;
+
+  cout << "Previous Line - Overflow Error on product calculation" << endl;
 
   return 0;
 }
