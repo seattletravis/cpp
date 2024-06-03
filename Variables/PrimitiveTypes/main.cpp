@@ -34,7 +34,12 @@ int main(){
   float car_payment {401.23};
   cout << "Car Payment: $" << car_payment << endl;
 
-  
+  double pi {3.141592654};
+  cout << "Pi to the 9th decimal place: " << pi << endl;
+
+  long double large_amount {2.7e120};
+  cout << "Very large number: " << large_amount << endl;
+
 
 
   return 0;
