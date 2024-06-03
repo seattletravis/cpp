@@ -40,6 +40,18 @@ int main(){
   long double large_amount {2.7e120};
   cout << "Very large number: " << large_amount << endl;
 
+  /**********************
+  * Boolean type
+  *********************/
+
+  bool game_over {true};
+  cout << "Game Over: " << game_over << ", aka, ";
+
+  if (game_over){ 
+    cout << "true" << endl;
+  }else{
+    cout << "false" << endl;
+  }
 
 
   return 0;
