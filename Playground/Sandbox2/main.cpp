@@ -30,11 +30,19 @@ int main() {
   cout << "long: " << LONG_MIN << endl;
   cout << "long long: " << LLONG_MIN << endl;
 
+  cout << "*****************************************" << endl;
+
   cout << "Maximum Values" << endl;
   cout << "char: " << CHAR_MAX << endl;
   cout << "int: " << INT_MAX << endl;
   cout << "short: " << SHRT_MAX << endl;
   cout << "long: " << LONG_MAX << endl;
   cout << "long long: " << LLONG_MAX << endl;
+
+  cout << "*****************************************" << endl;
+
+  cout << "sizeof using variable names" << endl;
+  int age {21};
+  cout << "age is " << sizeof(age) << " bytes." << endl;
 
 }
