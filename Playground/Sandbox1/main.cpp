@@ -14,8 +14,13 @@ int main(){
     std::cout<<"\nsum2 = "<<sum2;
     
     char B = '2322';
-
     int sum3 = B + 10;
-    std::cout<<"\nsum3 = "<<sum3;
+    std::cout<<"\nsum3 = "<<sum3<<endl;
+
+    char C = '6';
+    int sum4 = C;
+    std::cout << sum4;
+
+
   return 0;
 }
