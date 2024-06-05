@@ -10,8 +10,8 @@ int main(){
 
   const string title {"Estimate for carpet cleaning service:"};
   int num_room {2};
-  const int per_room {30};
-  const float tax_rate {0.06};
+  const double per_room {30.0};
+  const double tax_rate {0.06};
   const string footer {"This estimate is valid for 30 days"};
   float sub_total {0};
   float tax {0};
