@@ -23,11 +23,11 @@ int main(){
   cout << "Price per room: $" << per_room << endl;
   sub_total = num_room * per_room;
   cout << "Subtotal: $" << sub_total << endl;
-  tax = num_room * per_room * tax_rate;
+  tax = sub_total * tax_rate;
   cout << "Tax: $" << tax << endl;
 
   cout << "==========================================" << endl;
 
-  cout << "Total estimate: $" << num_room * per_room + tax << endl;
+  cout << "Total estimate: $" << sub_total + tax << endl;
   cout << footer << endl;
 }
