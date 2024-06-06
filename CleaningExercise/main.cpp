@@ -24,7 +24,7 @@ int main(){
   cin >> small_num_room;
   cout << "How many large rooms would you like cleaned: ";
   cin >> large_num_room;
-  // cout << "Number of rooms: " << num_room << endl;
+
   cout << "Price per small room: $" << small_per_room << endl;
   cout << "Price per large room: $" << large_per_room << endl;
 
