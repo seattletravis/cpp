@@ -7,5 +7,11 @@ int main(){
   cout << "\nThe first vowel is: " << vowels[0] << endl;
   cout << "The last vowel is: " << vowels[4] << endl;
 
+
+  double hi_temps[] {65.2, 66.6, 89.6};
+  hi_temps[0] = 100.4;
+  cout << "The temp is now: " << hi_temps[0] << endl;
+
   
+
 }
