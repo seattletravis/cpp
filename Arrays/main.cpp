@@ -13,6 +13,4 @@ int main(){
   hi_temps[0] = 100.4;
   cout << "The temp is now: " << hi_temps[0] << endl;
 
-
-
 }
