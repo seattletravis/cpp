@@ -13,5 +13,6 @@ int main(){
   hi_temps[0] = 100.4;
   cout << "The temp is now: " << hi_temps[0] << endl;
   cout << "and the low temp: " << hi_temps[2] << endl;
+  cout << "all ";
 
 }
