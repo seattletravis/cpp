@@ -23,8 +23,8 @@ int main(){
   cout << "Fourth score at index 3: " << test_scores[3] << endl;
   cout << "Fifth score at index 4: " << test_scores[4] << endl;
 
-  cout << "\nEnter 5 test scores: ";
-  cin >> test_scores[0] >> test_scores[1] >> test_scores[2] >> test_scores[3] >> test_scores[4];
+  // cout << "\nEnter 5 test scores: ";
+  // cin >> test_scores[0] >> test_scores[1] >> test_scores[2] >> test_scores[3] >> test_scores[4];
 
   cout << "\nFirst score at index 0: " << test_scores[0] << endl;
   cout << "Second score at index 1: " << test_scores[1] << endl;
