@@ -32,4 +32,9 @@ int main(){
   cout << "Fourth score at index 3: " << test_scores[3] << endl;
   cout << "Fifth score at index 4: " << test_scores[4] << endl;
 
+  cout << "What is the value of the test_score array: " << test_scores;
+
+  cout << endl;
+  return 0;
+
 }
