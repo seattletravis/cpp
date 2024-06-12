@@ -9,6 +9,11 @@ int main() {
   cout << vowels[0] << endl;
   cout << vowels [4] << endl;
 
+  vowels.push_back('y');
+
+  for (int i=0; i<vowels.size(); i++){
+    cout << vowels[i]; 
+  }
 
 
 }
