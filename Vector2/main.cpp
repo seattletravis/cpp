@@ -9,5 +9,6 @@ int main() {
   cout << vowels[0] << endl;
   cout << vowels [4] << endl;
 
-  
+
+
 }
