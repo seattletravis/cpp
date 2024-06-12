@@ -10,6 +10,7 @@ vector <int> thresholds {10,20,30};
 
   cout << thresholds.size() << endl;  
 
+  // print each value in thresholds,
   for (int i = 0; i < thresholds.size(); i++){
     cout << thresholds[i] << ", " << endl;
   };
