@@ -12,8 +12,8 @@ int main() {
   vowels.push_back('y');
 
   for (int i=0; i<vowels.size(); i++){
-    cout << vowels[i]; 
+    cout << vowels[i] << " "; 
   }
-
+  cout << endl;
 
 }
