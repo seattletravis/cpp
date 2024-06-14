@@ -31,4 +31,12 @@ int main() {
 
   cout << "\nThere are " << test_scores.size() << " scores in the vector!" << endl;
 
+  int score_to_add{60};
+
+  test_scores.push_back(score_to_add);
+
+  cout << "added a test score! " << endl;
+
+  cout << "\nThere are " << test_scores.size() << " scores in the vector!" << endl;
+
 }
