@@ -29,4 +29,6 @@ int main() {
   cout << test_scores.at(1) << endl;
   cout << test_scores.at(2) << endl;
 
+  cout << "\nThere are " << test_scores.size() << " in the vector!" << endl;
+
 }
