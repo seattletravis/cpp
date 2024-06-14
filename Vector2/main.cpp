@@ -23,6 +23,10 @@ int main() {
   cout << test_scores[1] << endl;
   cout << test_scores[2] << endl;
 
-
+  // vector syntax
+  cout << "\nTest Scores using vector syntax: " << endl;
+  cout << test_scores.at(0) << endl;
+  cout << test_scores.at(1) << endl;
+  cout << test_scores.at(2) << endl;
 
 }
