@@ -16,4 +16,10 @@ int main() {
   }
   cout << endl;
 
+  vector <int> test_scores {100, 98, 89};
+
+  cout << "\nTest Scores using array syntax: " << endl;
+  cout << 
+
+
 }
