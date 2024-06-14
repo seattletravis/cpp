@@ -19,7 +19,10 @@ int main() {
   vector <int> test_scores {100, 98, 89};
 
   cout << "\nTest Scores using array syntax: " << endl;
-  cout << 
+  cout << test_scores[0] << endl;
+  cout << test_scores[1] << endl;
+  cout << test_scores[2] << endl;
+
 
 
 }
