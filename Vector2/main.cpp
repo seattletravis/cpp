@@ -35,8 +35,18 @@ int main() {
 
   test_scores.push_back(score_to_add);
 
-  cout << "added a test score! " << endl;
+  cout << "\nadded a test score! " << endl;
 
   cout << "\nThere are " << test_scores.size() << " scores in the vector!" << endl;
+
+  vector <vector<int>> movie_ratings
+  {
+    {1,2,3,400},
+    {4,4,4,4},
+    {4,4,4,3}
+  };
+
+  cout << movie_ratings[0][3] << endl;
+
 
 }
