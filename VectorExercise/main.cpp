@@ -22,9 +22,5 @@ int main(){
 
   vector1.at(0) = 1000;
 
-  
-
-
-
   return 0;
 }
